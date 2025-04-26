@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://hypeabis.id/assets/content/Still_2_202504011737181743503838_crop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #733C3C;
+    background: #add8e6;
+    color:  #333;
+    box-shadow: 1px 1px 1px 2px #C69B7B;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+

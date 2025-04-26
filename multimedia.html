@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- Panggil CSS -->
+</head>
+<body>
+    <center>
+        <h1>JUMBO</h1>
+        <ul>
+            <li>
+                <h2 id="video" style="cursor: pointer;">Trailer Jumbo film</h2>
+                <hr>
+                <video controls width="600" height="340" loop autoplay muted preload="auto">
+                    <source src="Trailer Jumbo.mp4" type="video/mp4">
+                </video>
+            </li>
+            <li>
+                <h2 id="audio" style="cursor: pointer;">Audio Aespa Whiplash</h2>
+                <hr>
+                <audio controls>
+                    <source src="aespa - Whiplash.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="gambar" style="cursor: pointer;">Gambar</h2>
+                <hr>
+                <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    <!-- Gambar Pertama -->
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="https://statik.tempo.co/data/2025/04/11/id_1390888/1390888_720.jpg">
+                        <source media="(max-width: 1200px)" srcset="https://statik.tempo.co/data/2025/04/11/id_1390888/1390888_720.jpg">
+                        <img src="https://statik.tempo.co/data/2025/04/11/id_1390888/1390888_720.jpg" alt="Jumbo New Poster" style="width: 300px; height: auto; border: 2px solid #4CAF50; border-radius: 10px;">
+                    </picture>
+                    <!-- Gambar Kedua -->
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="https://pbs.twimg.com/media/Fr6Jid7aEAA6voA?format=jpg&name=900x900">
+                        <source media="(max-width: 1200px)" srcset="https://pbs.twimg.com/media/Fr6Jid7aEAA6voA?format=jpg&name=900x900">
+                        <img src="https://pbs.twimg.com/media/Fr6Jid7aEAA6voA?format=jpg&name=900x900" alt="Foto Kedua" style="width: 300px; height: auto; border: 2px solid #2196F3; border-radius: 10px;">
+                    </picture>
+                </div>
+            </li>
+        </ul>
+    </center>
+
+    <script src="codding.js"></script> 
+</body>
+</html>
